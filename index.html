@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>
+        Task 2
+    </title>
+
+<link rel= "stylesheet" href="Task 2.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+<p>
+    <div class="container" id="h1">
+Objects & It's Internal Representation in Javascript
+</div>
+
+<div class="container" id="p1">
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript.<br><br>
+
+These objects are quite different from JavaScript’s primitive data-types ( Number, String, Boolean, null, undefined and symbol ) in the sense that while these primitive data-types all store a single value each ( depending on their types ). <br><br>
+
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.<br><br>
+
+An object is a reference data type.<br><br>
+</div>
+
+<div class="container" id="p1">
+A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. <br><br>
+
+You access the properties of an object with a simple dot-notation:
+<br><br>
+"objectName.propertyName"
+<br><br>
+Like all JavaScript variables, both the object name ( which could be a normal variable ) and property name are case sensitive. 
+
+<br><br>
+You can define a property by assigning it a value. For example, let’s create an object named myCar and give it properties name like make, model, and year as follows:
+<br><br>
+ Sample Coding :<br><br>
+" var myCar = new Object () ; "<br><br>
+" myCar.model = ' Mustang ' ; "<br><br>
+" myCar.year = 1969 ; "<br><br>
+" myCar.make = ' Ford ' ; "
+<br>
+<br>
+
+<br>
+Unassigned properties of an object are undefined ( and not null ).
+<br><br>
+" myCar.color ; "
+<br><br>
+
+</div>
+
+<div class="container" id="p1">
+
+Properties of JavaScript objects can also be accessed or set using a bracket notation. Objects are sometimes called associative arrays, since each property is associated with a string value that can be used to access it.
+<br><br>
+An object property name can be any valid JavaScript string or anything that can be converted to a string, including the empty string. However, Any property name that is not a valid JavaScript identifier ( for example, a property name that has a space or a hyphen, or that starts with a number ) can only be accessed using the square bracket notation.
+<br><br>
+In JavaScript, the "this" keyword refers to an object,
+
+Which object depends on how "this" is being invoked (used or called).
+<br>
+
+<br>
+In an object method, "this" refers to the object.<br><br>
+Alone, this refers to the global object.<br><br>
+In a function, this refers to the global object.<br><br>
+In a function, in strict mode, this is undefined.<br><br>
+In an event, this refers to the element that received the event.<br><br>
+Methods like call( ), apply( ), and bind( ) can refer "this" to any object.<br><br>
+
+
+
+
+</div>
+<div class="container-fluid" id="sign">Blog written by V M Prasanth</div>
+</p>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+
+body{
+
+    color:black;
+    background : url('img4.jpg');
+    background-attachment: fixed;
+    background-size :cover;
+    background-repeat : no-repeat;
+    background-position: center;
+
+    font-family :'Times New Roman', Times, serif;
+    font-size :20px;
+
+}
+
+#p1{
+    color: white;
+    background-color: black;
+    mix-blend-mode:hard-light;
+
+    margin-top:50px;
+    margin-left: 40px;
+    padding: 30px;
+    opacity: 0.4;
+    width:1000px;
+padding-top: 60px;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+
+    border-radius: 25px;
+}
+
+#h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#sign{
+    font-family: "Footlight MT";
+    font-size: 40px;
+
+    text-align:center;
+
+    color: white;
+background-color: black;
+mix-blend-mode:hard-light;
+
+margin-top:40px;
+margin-bottom: 40px;
+padding: 20px;
+opacity: 0.5;
+}
+
+
